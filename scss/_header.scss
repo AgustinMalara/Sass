@@ -1,0 +1,31 @@
+header{
+    background-color: #f87474;
+    .nav{
+        width: 80%;
+        background-color: #4848bc;
+        margin: 20px auto;
+        .menu{
+            list-style-type: none;
+            padding: 10px;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            .boton{
+                padding: 10px;
+                margin: 10px;
+                &:hover{
+                    background-color: blueviolet;
+                    border-radius: 15%;
+                }
+                a{
+                    text-decoration: none;
+                    color: white;
+                    &:hover{
+                        color: fuchsia;
+                        font-weight: bold;
+                    }
+                }
+            }
+        }
+    }
+}
